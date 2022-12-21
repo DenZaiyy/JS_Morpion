@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Exercice 5 - Morpion JS</title>
+</head>
+
+<body>
+    <div id="home">
+        <h1>Multiplayer Morpion Game</h1>
+        <div class="infos-content">
+            <button id="gameReload" onclick="restartGame()">Relancer</button>
+            <p id="infos-msg"></p>
+
+        </div>
+    </div>
+
+    <div class="contener">
+        <div id="box-j1">
+            <strong>Joueur 1</strong>
+            <p>Symbole: <strong id="symbole-j1"></strong></p>
+            <p id="j1-wins_status"></p>
+        </div>
+        <div id="morpion">
+            <div>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+            <div>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+            <div>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+        </div>
+        <div id="box-j2">
+            <strong>Joueur 2</strong>
+            <p>Symbole: <strong id="symbole-j2"></strong></p>
+            <p id="j2-wins_status"></p>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
